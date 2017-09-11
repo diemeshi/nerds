@@ -56,5 +56,6 @@ h5
     font-size:  24px;
     font-weight: 700;
     line-height: calc(700/24px);
-    color: ffffff; 
+    color: ffffff;
+    text-transform: uppercase; 
 }
