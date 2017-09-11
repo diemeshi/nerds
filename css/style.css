@@ -60,3 +60,15 @@ h5
     color: ffffff;
     text-transform: uppercase; 
 }
+.procent
+{
+    font-size:  45px;
+    font-weight: 700;
+    line-height: calc(700/45px);
+}
+span
+{
+    font-size:  16px;
+    font-weight: 400;
+    line-height: calc(400/16px);
+}
