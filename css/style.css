@@ -3,7 +3,10 @@ body
     font-family: 'Roboto', sans-serif;
     background-color: #ffffff; 
 }
-header
+.navigation.li
 {
-    background-color: #eeeeee;
+    font-family: 'Roboto', sans-serif;
+    font-size:  16px;
+    font-weight: 30px;
+    line-height: calc(30px/16px);
 }
