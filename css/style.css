@@ -471,6 +471,7 @@ a
 {
    text-decoration: none; 
    color: #000000;
+   text-transform: uppercase;
 }
 h1
 {
@@ -489,19 +490,29 @@ h3
     font-size:   36px;
     font-weight: 700;
     line-height: calc(700/36px);
+    text-transform: uppercase;
 }
 h4
 {
     font-size:  24px;
     font-weight: 700;
     line-height: calc(700/24px);
+    text-transform: uppercase;
 }
 h5
 {
     font-size:  16px;
     font-weight: 700;
     line-height: calc(700/16px);
+    text-transform: uppercase;
 }
+.container
+{
+    width: 1440px;
+    margin: auto;
+}
+
+
 .btn
 {
     font-size:  24px;
