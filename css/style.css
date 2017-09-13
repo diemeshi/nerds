@@ -548,8 +548,25 @@ ul li:last-child
 {
   float:right;
 }
+.sliders h1
+ {
+	padding-top: 70px;
+	margin: 0 0 30px 0;
+}
+.sliders p
+{
+	margin-bottom: 60px;
+}
 
-
+.sliders {
+	height: 430px;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.slider-item
+{
+    background-image: url(img/slide1.png)
+}
 
 
 .btn
