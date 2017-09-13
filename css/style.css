@@ -454,11 +454,13 @@ body
 }
 nav
 {
-    list-style: none;
     font-size:  16px;
     font-weight: 500;
     line-height: calc(500/16px);
-    
+}
+ul
+{
+    list-style: none;
 }
 p
 {
@@ -511,9 +513,10 @@ h5
     width: 1440px;
     margin: auto;
 }
-.header
+header
 {
-    background-color: #eeeeee;    
+    background-color: #eeeeee;
+    padding-top: 49px;    
 }
 
 .btn
