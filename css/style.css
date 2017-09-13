@@ -528,6 +528,7 @@ header
 {
     float: left;
     margin: 20px 0 20px 200px;
+    width: 100%;
 }
 .navigation li
 {
@@ -540,7 +541,12 @@ header
 }
 .navigation li:last-child
 {
-    margin-right: 140px;
+    float: right;
+    padding-right: 140px;
+}
+.cart-icon
+{
+  margin-right: 25px;  
 }
 
 .btn
