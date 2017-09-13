@@ -522,13 +522,27 @@ header
 {
     display: block;
     float: left;
-    padding-right: 202px; 
+    margin-left: 140px
 }
 .navigation
 {
     float: left;
     margin: 20px 0 20px 200px;
 }
+.navigation li
+{
+    display: inline-block;
+    padding-right: 50px;
+}
+.navigation li:nth-child(4)
+{
+  padding-right: 0px;  
+}
+.navigation li:last-child
+{
+    padding-right: 140px;
+}
+
 .btn
 {
     font-size:  24px;
