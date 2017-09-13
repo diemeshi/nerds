@@ -508,16 +508,17 @@ h5
     line-height: calc(700/16px);
     text-transform: uppercase;
 }
-.container
-{
-    width: 1160px;
-    margin: 0 auto;
-}
 header
 {
     background-color: #eeeeee;
-    padding: 50px 140px 0 140px;    
+    padding: 50px 140px 0px 140px;
 }
+.container
+{
+    width: 1160px;
+    margin: 0 auto; 
+}
+
 .logo
 {
     display: block;
@@ -526,7 +527,7 @@ header
 .navigation
 {
     float: left;
-    margin: 20px 140px 20px 140px;
+    margin: 20px 0px 20px 200px;
 
 }
 .navigation ul
@@ -539,9 +540,13 @@ header
     display: inline-block;
     padding: 10px 25px;
 }
-.navigation li:last-child
+.navigation .cart-icon
 {
-  padding-right: 0;
+  padding-right: 20px;
+}
+ul li:last-child
+{
+  float:right;
 }
 
 .btn
