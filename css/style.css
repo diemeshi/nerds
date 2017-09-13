@@ -518,7 +518,16 @@ header
     background-color: #eeeeee;
     padding-top: 49px;    
 }
-
+.logo
+{
+    display: block;
+    float: left;
+    padding-right: 202px; 
+}
+.navigation
+{
+    float: left;
+}
 .btn
 {
     font-size:  24px;
