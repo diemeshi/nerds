@@ -9,7 +9,7 @@
  *    IE on Windows Phone and in iOS.
  */
 
-html {
+ html {
   line-height: 1.15; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -508,7 +508,7 @@ h5
     line-height: calc(700/16px);
     text-transform: uppercase;
 }
-header
+.main-header
 {
     background-color: #eeeeee;
     padding: 50px 140px 0px 140px;
@@ -532,7 +532,7 @@ header
 }
 .navigation ul
 {
-  padding: auto;
+  padding: 0;
   margin: 0 auto;
 }
 .navigation li
@@ -540,14 +540,12 @@ header
     display: inline-block;
     padding: 10px 25px;
 }
-.navigation .cart-icon
+.cart-icon
 {
   padding-right: 20px;
+  padding-left: 120px;
 }
-ul li:last-child
-{
-  float:right;
-}
+
 .sliders h1
  {
 	padding-top: 70px;
@@ -559,16 +557,54 @@ ul li:last-child
 }
 
 .sliders {
-	height: 430px;
+	height: 100%;
 	background-repeat: no-repeat;
 	background-position: right;
 }
-.slider-item
+.slider-item1
 {
     background-image: url(img/slide1.png)
 }
 
+.clearfix::after 
+{
+	content: "";
+	display: table;
+	clear: both;
+}
+.product
+{
+	margin-top: 70px;
+	padding-bottom: 80px;
+    
+}
+.product-item p
+{
+  margin-bottom: 40px;
+  word-wrap:break-word;
+  width: 70%;
+  
 
+}
+.product-item h3
+{
+  margin: 30px 0;
+}
+.product-item {
+	float: left;
+	width: 33%;
+	margin-right: auto;
+}
+.product-item:last-child {
+	float: left;
+	margin-right: 0;
+}
+.product-item a
+{
+   background-color: red;
+   border: 2px solid transparent;
+   transition: all 250ms ease-in-out;
+}
 .btn
 {
     font-size:  24px;
