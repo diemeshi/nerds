@@ -559,17 +559,12 @@ h5
 .sliders p
 {
   margin-bottom: 60px;
-  width: 360px;
 }
 
 .sliders {
 	height: 100%;
 	background-repeat: no-repeat;
 	background-position: right;
-}
-.slider-item
-{
-    background-image: url(img/slide1.png)
 }
 .sliders a
 {
@@ -584,7 +579,7 @@ h5
 .control
 {
   position: relative;
-  left: 535px;
+  left: 540px;
   bottom: 100px;
 }
 .slider-item
@@ -619,7 +614,6 @@ h5
 {
   background-color: #efc84a;
 }
-
 .btn
 {
     font-size:  24px;
