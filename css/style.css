@@ -586,25 +586,7 @@ h5
   
 
 }
-.product-item h3
-{
-  margin: 30px 0;
-}
-.product-item {
-	float: left;
-	width: 33%;
-	margin-right: auto;
-}
-.product-item:last-child {
-	float: left;
-	margin-right: 0;
-}
-.product-item a
-{
-   background-color: red;
-   border: 2px solid transparent;
 
-}
 .btn
 {
     font-size:  24px;
