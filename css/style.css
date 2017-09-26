@@ -508,15 +508,21 @@ h5
     line-height: calc(700/16px);
     text-transform: uppercase;
 }
+.clearfix::after
+{
+  content: "";
+  display: block;
+  clear: both;
+}  
 .main-header
 {
     background-color: #eeeeee;
-    padding: 50px 140px 0px 140px;
+    padding: 50px 0 0 0;
 }
 .container
 {
     width: 1160px;
-    margin: 0 auto; 
+    margin: 0 140px 0 140px; 
 }
 
 .logo
@@ -561,17 +567,11 @@ h5
 	background-repeat: no-repeat;
 	background-position: right;
 }
-.slider-item1
+.slider-item
 {
     background-image: url(img/slide1.png)
 }
 
-.clearfix::after 
-{
-	content: "";
-	display: table;
-	clear: both;
-}
 .product
 {
 	margin-top: 70px;
