@@ -585,7 +585,7 @@ h5
 {
   position: relative;
   left: 535px;
-  bottom: 95px;
+  bottom: 100px;
 }
 .slider-item
 {
@@ -595,7 +595,7 @@ h5
 }
 .product 
 {
-  margin-top: 80px;
+  margin: 80px 0;
 } 
 .product-item 
 {
@@ -605,10 +605,20 @@ h5
 .product-item p
 {
   width: 240px;
+  height: 60px;
+  padding-bottom: 15px
 }
+.product-item a
+{
+  background-color: #fb565a;
+  border-radius: 5px;
+  padding: 17px 40px;
 
-
-
+}
+.product-item a:last-child
+{
+  background-color: #efc84a;
+}
 
 .btn
 {
