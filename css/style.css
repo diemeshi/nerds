@@ -571,6 +571,44 @@ h5
 {
     background-image: url(img/slide1.png)
 }
+.sliders a
+{
+  background-color: #fb565a;
+  border-radius: 5px;
+  padding: 16px 52px;
+} 
+.sliders
+{
+	background-repeat: no-repeat;
+}
+.control
+{
+  position: relative;
+  left: 535px;
+  bottom: 95px;
+}
+.slider-item
+{
+    background-image: url(img/slide1.png);
+    height: 100%;
+    margin-bottom: 80px;
+}
+.product 
+{
+  margin-top: 80px;
+} 
+.product-item 
+{
+  float:left;
+  width: 33%;
+}
+.product-item p
+{
+  width: 240px;
+}
+
+
+
 
 .btn
 {
