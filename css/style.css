@@ -564,7 +564,8 @@ h5
 .control
 {
   position:absolute; 
-  background-color: aqua;
+  bottom: 95px;
+  padding-left: 535px;
 } 
 .sliders:nth-child(1) h1
  {
