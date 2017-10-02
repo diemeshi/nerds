@@ -550,21 +550,21 @@ h5
   padding-right: 20px;
   padding-left: 120px;
 }
-.sliders h1
- {
-  padding-top: 70px;
-  width: 380px;
-	margin: 0 0 30px 0;
-}
-.sliders p
-{
-  margin-bottom: 60px;
+.sliders
+{ 
+  position: relative;
+  padding-bottom: 80px;
 }
 .sliders a
 {
   background-color: #fb565a;
   border-radius: 5px;
   padding: 16px 52px;
+}
+.control
+{
+  position:absolute; 
+  background-color: aqua;
 } 
 .sliders:nth-child(1) h1
  {
